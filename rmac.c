@@ -1,5 +1,4 @@
 
-
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
@@ -78,7 +77,7 @@ int randchk(){
 }
 
 /************************************************************************************************
- * Printing the throughputs of the slotted aloha and pure-aloha to throgughput.m file
+ * Printing the throughputs of the pure-aloha for different loads in pure_aloha.m file
  ************************************************************************************************/
 
 int pfile(float *p_aloha, float *pa_thrput){
