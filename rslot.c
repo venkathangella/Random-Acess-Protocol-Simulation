@@ -1,7 +1,7 @@
 /* Author: venkat thangella
 *  Date  : 28/01/2014
 *  Modified :  29/01/2014
-*  Funcionality : To calculate the throughput for pure and slotted aloha protocols
+*  Funcionality : To calculate the throughput for the slotted aloha protocol
 *		  through simulation technique.
 */
 
@@ -85,7 +85,7 @@ int randchk(){
 
 
 /************************************************************************************************
- * Printing the throughputs of the slotted aloha and pure-aloha to throughput.m file
+ * Printing the throughputs of the slotted aloha to slotted_aloha.m file
  ************************************************************************************************/
 
 int pfile(float *sa_thrput, float *slo_aloha){
@@ -93,7 +93,7 @@ int pfile(float *sa_thrput, float *slo_aloha){
     int i;
     FILE *fout;
 
-    fout= fopen("slotted_aloha.m", "w"); //open the throughput.m file in write mode
+    fout= fopen("slotted_aloha.m", "w"); //open the slotted_aloha.m file in write mode
 
     fprintf(fout, "      \n\n");
 
